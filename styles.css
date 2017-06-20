@@ -20,10 +20,10 @@ list-style-type: square;
 border-style: dotted;
 border-width: 5px;
 }
-.item even { background-color: grey;
+.item odd { background-color: grey;
 }
 
-.item odd {
+.item even
 background-color: black;
 color: white;
 :nth-child( <nth> [ of <selector># ]? )
@@ -31,7 +31,7 @@ color: white;
 }
 
 #item1 {
-font-size: 30;
+font-size: 30px;
 }
 #item2 { text-align: right;
 }
